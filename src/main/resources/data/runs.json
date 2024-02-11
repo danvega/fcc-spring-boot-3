@@ -1,0 +1,84 @@
+{
+  "runs": [
+    {
+      "id": 1,
+      "title": "Noon Run",
+      "startedOn": "2024-02-20T06:05:00.000000",
+      "completedOn": "2024-02-20T10:27:00.000000",
+      "miles": 24,
+      "location": "INDOOR"
+    },
+    {
+      "id": 2,
+      "title": "Afternoon Run",
+      "startedOn": "2024-02-22T12:16:00.000000",
+      "completedOn": "2024-02-22T14:27:00.000000",
+      "miles": 6,
+      "location": "OUTDOOR"
+    },
+    {
+      "id": 3,
+      "title": "Dawn Run",
+      "startedOn": "2024-03-06T19:47:00.000000",
+      "completedOn": "2024-03-06T22:06:00.000000",
+      "miles": 19,
+      "location": "INDOOR"
+    },
+    {
+      "id": 4,
+      "title": "Sunset Jog",
+      "startedOn": "2024-03-31T08:32:00.000000",
+      "completedOn": "2024-03-31T12:57:00.000000",
+      "miles": 7,
+      "location": "OUTDOOR"
+    },
+    {
+      "id": 5,
+      "title": "Sunset Jog",
+      "startedOn": "2024-03-01T03:49:00.000000",
+      "completedOn": "2024-03-01T05:58:00.000000",
+      "miles": 11,
+      "location": "INDOOR"
+    },
+    {
+      "id": 6,
+      "title": "Noon Run",
+      "startedOn": "2024-03-02T21:02:00.000000",
+      "completedOn": "2024-03-03T00:36:00.000000",
+      "miles": 3,
+      "location": "INDOOR"
+    },
+    {
+      "id": 7,
+      "title": "Sunset Jog",
+      "startedOn": "2024-04-05T02:46:00.000000",
+      "completedOn": "2024-04-05T06:43:00.000000",
+      "miles": 8,
+      "location": "INDOOR"
+    },
+    {
+      "id": 8,
+      "title": "Morning Run",
+      "startedOn": "2024-03-29T06:37:00.000000",
+      "completedOn": "2024-03-29T09:19:00.000000",
+      "miles": 20,
+      "location": "OUTDOOR"
+    },
+    {
+      "id": 9,
+      "title": "Sunset Jog",
+      "startedOn": "2024-03-22T23:22:00.000000",
+      "completedOn": "2024-03-23T02:41:00.000000",
+      "miles": 4,
+      "location": "INDOOR"
+    },
+    {
+      "id": 10,
+      "title": "Dawn Run",
+      "startedOn": "2024-03-08T01:34:00.000000",
+      "completedOn": "2024-03-08T05:53:00.000000",
+      "miles": 23,
+      "location": "OUTDOOR"
+    }
+  ]
+}
