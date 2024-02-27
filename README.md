@@ -60,8 +60,9 @@ This course is a beginner's step-by-step guide to developing web applications us
 
 - Husband + Father (2 daughters) #girldad 
 - Cleveland, OH
-- Spring Developer Advocate
+- Spring Developer Advocate @Broadcom
 - Java Champion
+- Spring Academy Instructor
 - 23+ years of Software Development Experience
 
 ## Prerequisites
