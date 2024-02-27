@@ -18,6 +18,19 @@ Content-Type: application/json
   "location": "OUTDOOR"
 }
 
+### Create new Run with invalid dates (completedOn is before startedOn)
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 11,
+  "title": "Saturday Morning Run",
+  "startedOn": "2024-02-27T16:00:12.49766",
+  "completedOn": "2024-02-27T15:01:12.497678",
+  "miles": 6,
+  "location": "OUTDOOR"
+}
+
 ### Update an existing Run
 PUT http://localhost:8080/api/runs/11
 Content-Type: application/json

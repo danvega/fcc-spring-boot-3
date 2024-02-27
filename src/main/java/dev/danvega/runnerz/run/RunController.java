@@ -12,9 +12,9 @@ import java.util.Optional;
 @RequestMapping("/api/runs")
 class RunController {
 
-    private final RunRepository runRepository;
+    private final JdbcRunRepository runRepository;
 
-    public RunController(RunRepository runRepository) {
+    RunController(JdbcRunRepository runRepository) {
         this.runRepository = runRepository;
     }
 
@@ -50,4 +50,7 @@ class RunController {
         runRepository.delete(id);
     }
 
+    List<Run> findByLocation(@RequestParam String location) {
+        return runRepository.findByLocation(location);
+    }
 }

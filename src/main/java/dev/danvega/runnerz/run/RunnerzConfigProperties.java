@@ -1,4 +1,4 @@
-package dev.danvega.runnerz.config;
+package dev.danvega.runnerz.run;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.bind.DefaultValue;

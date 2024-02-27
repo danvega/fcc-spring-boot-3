@@ -1,6 +1,6 @@
 package dev.danvega.runnerz.run;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.validation.constraints.AssertTrue;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Positive;
 
@@ -31,4 +31,5 @@ public record Run(
     public Integer getAvgPace() {
         return Math.toIntExact(getDuration().toMinutes() / miles);
     }
+
 }

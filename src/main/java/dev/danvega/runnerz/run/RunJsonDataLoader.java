@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -17,7 +18,7 @@ public class RunJsonDataLoader implements CommandLineRunner {
     private final ObjectMapper objectMapper;
     private final RunRepository runRepository;
 
-    public RunJsonDataLoader(ObjectMapper objectMapper, RunRepository runRepository) {
+    public RunJsonDataLoader(ObjectMapper objectMapper, @Qualifier("jdbcRunRepository") RunRepository runRepository) {
         this.objectMapper = objectMapper;
         this.runRepository = runRepository;
     }
