@@ -1,6 +1,5 @@
 package dev.danvega.runnerz;
 
-import dev.danvega.runnerz.run.RunnerzConfigProperties;
 import dev.danvega.runnerz.user.UserHttpClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +9,6 @@ import org.springframework.web.client.RestClient;
 import org.springframework.web.client.support.RestClientAdapter;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 
-@EnableConfigurationProperties(RunnerzConfigProperties.class)
 @SpringBootApplication
 public class Application {
 
