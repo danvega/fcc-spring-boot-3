@@ -24,17 +24,20 @@ This course is a beginner's step-by-step guide to developing web applications us
 - Module 3: Web Application (REST API)
     - [Spring MVC](https://docs.spring.io/spring-framework/reference/web.html)
     - CRUD (in-memory)
-    - REST API Testing
-      - Postman
-      - Http Client (IntelliJ)
     - @Component / Controller / RestController / Service / Repository
+    - REST API Testing
+        - Postman
+        - Http Client (IntelliJ)
+        - curl / HTTPie
     - Dependency Injection
     - Data Validation
     - Configuration
+    - Error Handling
 - Module 4: Database
     - H2 Database
     - JDBC Client (Keep it simple)
     - Command Line Runner
+      - Loading JSON data
     - Docker Compose & PostgreSQL
     - Spring Data
 - Module 5: REST Client
@@ -45,8 +48,12 @@ This course is a beginner's step-by-step guide to developing web applications us
     - Rest Client
     - Http Interfaces
 - Module 6: Testing
-    - [Spring Boot Testing Toolkit](https://www.youtube.com/watch?v=rUbjV3VY1DI)
-    - Tests
+    - Spring Boot Testing Toolkit
+      - No need to opt in to testing 
+      - `contextLoads()` test
+      - `@SpringBootTest` annotation
+      - Documentation 
+    - Writing Tests
       - `InMemoryRunRepositoryTest`
       - `RunControllerTest`
       - `RunControllerIntTest`
@@ -101,16 +108,45 @@ The important part here is to take what you learn and apply it to your own proje
 
 ## Resources
 
-- Dan Vega
+This is a list of resources I recommend you check out to continue your learning.
+
+### Dan Vega
   - [Website](https://www.danvega.dev/)
   - [YouTube](https://www.youtube.com/@danvega)
   - [Twitter](https://twitter.com/therealdanvega)
-- Spring
+
+### Spring
   - [Spring Academy](https://www.youtube.com/c/SpringAcademy)
-  - [Spring Developer YouTube channel](https://www.youtube.com/c/SpringDeveloper)
   - [Spring I/O](https://spring.io/blog)
   - [Spring Blog](https://spring.io/blog)
-  - [Spring Office Hours](https://www.springofficehours.io) 
+  - [SpringOne at VMware Explore](https://springone.io/) 
 
-## Notes
+### Documentation
 
+- [Spring Framework Reference](https://docs.spring.io/spring-framework/docs/current/reference/html/)
+- [Spring Framework API](https://docs.spring.io/spring-framework/docs/current/javadoc-api/)
+- [Spring Boot Reference](https://docs.spring.io/spring-boot/docs/current/reference/html/index.html)
+- [Spring Boot API](https://docs.spring.io/spring-boot/docs/current/api/)
+- [Spring Boot Guides](https://spring.io/guides)
+
+### Books
+
+- [Spring Boot Up and Running - Mark Heckler](https://amzn.to/3WOSutb)
+- [Learning Spring Boot 3.0 - Greg Turnquist](https://amzn.to/3CuCgxc)
+- [Spring Boot in Action - Craig Walls](https://amzn.to/3ZcI3kx)
+
+### Podcasts
+
+- [Bootiful Podcast - Josh Long](http://bootifulpodcast.fm/)
+- [Spring Office Hours](https://www.springofficehours.io)
+
+### YouTube
+
+- [Spring Developer](https://www.youtube.com/@SpringSourceDev)
+- [Josh Long](https://www.youtube.com/@coffeesoftware)
+- [DaShaun Carter](https://www.youtube.com/@dashaun)
+- [Spring Boot Learning](https://www.youtube.com/@SpringBootLearning)
+- [Spring Tips](https://www.youtube.com/playlist?list=PLgGXSWYM2FpPw8rV0tZoMiJYSCiLhPnOc)
+- [Amigoscode](https://www.youtube.com/@amigoscode)
+- [Java Brains](https://www.youtube.com/c/JavaBrainsChannel)
+- [Daily Code Buffer](https://www.youtube.com/@DailyCodeBuffer)
